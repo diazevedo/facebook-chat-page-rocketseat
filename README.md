@@ -16,12 +16,6 @@ O mais importante é que todos elementos apareçam em tela.
 
 O layout da aplicação está em [nesse link](assets-desafio/layout.sketch) que pode ser aberto por essa ferramenta gratuita e online: https://www.figma.com/
 
-## Componentes
-
-Na imagem abaixo destaquei cada componente que você criará e abaixo da imagem está a descrição e responsabilidades de cada um:
-
-![Componentes](assets-desafio/components.png)
-
 **Header (Amarelo):** Responsável por exibir a logo e o link para acessar o perfil;
 
 **PostList (Verde):** Responsável por armazenar os dados da listagem de post, esses dados devem ficar dentro do `state` do componente e não em uma variável comum, por exemplo:
