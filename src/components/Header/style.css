@@ -1,0 +1,26 @@
+.header-page {
+  background-color: #4a90e2;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 25px;
+  margin-left: 42px;
+}
+
+.my-profile-link {
+  width: 100px;
+  height: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 42px;
+}
+a::first-letter {
+  text-transform: uppercase;
+}

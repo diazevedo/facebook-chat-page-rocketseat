@@ -1,10 +1,16 @@
 import React from "react";
-import profile from "../../assests/profile.png";
+import "./style.css";
+import facebookLogo from "../../assests/facebook-logo.svg";
 
 const Header = () => {
-  <header>
-    <img src={profile}></img>
-  </header>;
+  return (
+    <header className="header-page">
+      <img className="logo" src={facebookLogo}></img>
+      <a className="my-profile-link" href="#">
+        meu perfil
+      </a>
+    </header>
+  );
 };
 
 export default Header;
