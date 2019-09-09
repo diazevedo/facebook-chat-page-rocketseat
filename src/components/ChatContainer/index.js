@@ -1,4 +1,5 @@
 import React from "react";
+import Comment from "../Comment";
 import "./style.css";
 
 const ChatContainer = props => {
@@ -17,6 +18,9 @@ const ChatContainer = props => {
         <p className="chat-date">{post.date}</p>
       </header>
       <p className="chat-content">{post.content}</p>
+      {post.comments.map(com => (
+        <Comment key={com.id} content={com} />
+      ))}
     </article>
   );
 };

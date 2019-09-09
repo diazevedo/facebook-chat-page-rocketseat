@@ -1,0 +1,22 @@
+.chat-replier-profile {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.comment-content {
+  color: #3e3e3e;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #eeeeee;
+  overflow: hidden;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.comment-author-name {
+  font-weight: bold;
+}
